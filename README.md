@@ -13,6 +13,7 @@ A repo to practice frontend machine coding questions using React + TypeScript + 
 | # | Question | Status |
 |---|----------|--------|
 | 1 | Toast Notification | ✅ Done |
+| 2 | OTP Input | ✅ Done |
 
 ## Running Locally
 
