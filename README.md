@@ -14,6 +14,7 @@ A repo to practice frontend machine coding questions using React + TypeScript + 
 |---|----------|--------|
 | 1 | Toast Notification | ✅ Done |
 | 2 | OTP Input | ✅ Done |
+| 3 | Stepper Count | ✅ Done |
 
 ## Running Locally
 
