@@ -6,8 +6,9 @@ import Stepper from "./pages/Steppper/Stepper";
 import Pagination from "./pages/Pagination/Pagination";
 import Virtualization from "./pages/Virtualization/Virtualization";
 import "./App.css";
+import TabForm from "./pages/TabForm/TabForm";
 
-const TABS = ["Toast", "OTP", "Stepper", "Pagination", "Virtualization"];
+const TABS = ["Toast", "OTP", "Stepper", "Pagination", "Virtualization" , "Tab Form"];
 
 const App = () => {
   const [activeTab, setActiveTab] = useState("Toast");
@@ -19,6 +20,7 @@ const App = () => {
       case "Stepper": return <Stepper steps={STEPPER_STEPS} />;
       case "Pagination": return <Pagination />;
       case "Virtualization": return <Virtualization />;
+      case "Tab Form": return <TabForm />;
     }
   };
 

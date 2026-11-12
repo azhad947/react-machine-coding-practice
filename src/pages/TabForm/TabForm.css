@@ -1,0 +1,59 @@
+.tab-form-tabs {
+    display: flex;
+    gap: 8px;
+}
+
+.tab-form-tabs button {
+    padding: 8px 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #f5f5f5;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.tab-form-tabs button:hover {
+    background: #e0e0e0;
+}
+
+.tab-form-tabs button.active {
+    background: #0073e6;
+    color: #fff;
+    border-color: #0073e6;
+    font-weight: bold;
+}
+
+.tab-form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.tab-form-fields input {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+.tab-form-fields input:focus {
+    border-color: #0073e6;
+}
+
+.tab-form-fields button[type="submit"] {
+    padding: 10px;
+    background: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.tab-form-fields button[type="submit"]:hover {
+    background: #005bb5;
+}
